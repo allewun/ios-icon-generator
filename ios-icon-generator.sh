@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# reference:
+# https://developer.apple.com/library/ios/qa/qa1686/_index.html
+
 function create_appiconset {
   if [[ -e "$(destination)/AppIcon.appiconset" ]]; then
     echo "AppIcon.appiconset already exists"
