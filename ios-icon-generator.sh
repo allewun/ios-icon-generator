@@ -68,7 +68,7 @@ function create_contents_json {
     {
       "idiom" : "ipad",
       "size" : "40x40",
-      "filename" : "Icon-40.png",
+      "filename" : "Icon-Small-40.png",
       "scale" : "1x"
     },
     {
