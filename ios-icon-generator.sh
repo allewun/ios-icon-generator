@@ -88,6 +88,12 @@ function create_contents_json {
       "size" : "76x76",
       "filename" : "Icon-76@2x.png",
       "scale" : "2x"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "83.5x83.5",
+      "filename" : "Icon-83.5@2x.png",
+      "scale" : "2x"
     }
   ],
   "info" : {
@@ -119,6 +125,7 @@ function create_icons {
   # Home screen (iPad)
   create_icon "$image" "76"  "Icon-76"
   create_icon "$image" "152" "Icon-76@2x"
+  create_icon "$image" "167" "Icon-83.5@2x"
 }
 
 
